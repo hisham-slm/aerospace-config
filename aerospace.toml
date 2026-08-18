@@ -8,11 +8,12 @@ after-startup-command = [
     aerospace workspace 2; open -n -a "Brave Browser"; sleep 0.8;
     aerospace workspace 4; open -n -a postman; sleep 0.8;
     aerospace workspace 5; open -n -a spotify; sleep 0.8;
-    aerospace workspace 10; open -n -a kitty; sleep 0.3; open -n -a kitty; sleep 0.3; open -n -a kitty; sleep 0.8;
     aerospace workspace 1;
   '"""
 ]
 
+# put it in the above array when you have multiple screens
+# aerospace workspace 10; open -n -a kitty; sleep 0.3; open -n -a kitty; sleep 0.3; open -n -a kitty; sleep 0.8;
 # Notify Sketchybar about workspace change
 exec-on-workspace-change = [
   '/bin/bash', '-c',
